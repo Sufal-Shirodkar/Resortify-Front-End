@@ -100,6 +100,7 @@ export default function App() {
 
   return (
     <>
+    
       {!Object.keys(user).length > 0 && token ? (
         <div className="parent-container">
           <RotatingLines
